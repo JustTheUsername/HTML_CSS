@@ -1,0 +1,58 @@
+/* importation des différentes polices */
+
+@font-face {
+    font-family: 'Ballpark';
+    src: url('../polices/ballpark.eot') format('eot'),
+         url('../polices/ballpark.woff') format('woff'),
+         url('../polices/ballpark.ttf') format('truetype'),
+         url('../polices/ballpark.svg') format('svg');
+}
+
+@font-face{
+    font-family:'Dayrom';
+        src: url('../polices/dayrom.eot') format('eot'),
+         url('../polices/dayrom.woff') format('woff'),
+         url('../polices/dayrom.ttf') format('truetype'),
+         url('../polices/dayrom.svg') format('svg');
+}
+body{
+
+    background-color: rgb(248, 237, 208);
+
+}
+
+h1,h2,h3,h4{
+        font-family: 'Dayrom';
+}
+#bloc_page{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+   min-width: 70%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+}
+
+section{
+
+    display:flex;
+    flex-direction:row-reverse;
+
+}
+footer{
+
+    display: flex;
+}
+nav ul{
+
+    display : flex;
+    list-style: none;
+}
+
+#listes_amis{
+
+    display:flex;
+}

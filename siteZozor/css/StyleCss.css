@@ -1,7 +1,7 @@
 /* importation des différentes polices */
 
 @font-face {
-    font-family: 'Ballpark';
+    font-family: 'sans-serif','Ballpark';
     src: url('../polices/ballpark.eot') format('eot'),
          url('../polices/ballpark.woff') format('woff'),
          url('../polices/ballpark.ttf') format('truetype'),
@@ -9,7 +9,7 @@
 }
 
 @font-face{
-    font-family:'Dayrom';
+    font-family:'Dayrom','sans-serif';
         src: url('../polices/dayrom.eot') format('eot'),
          url('../polices/dayrom.woff') format('woff'),
          url('../polices/dayrom.ttf') format('truetype'),
